@@ -1,0 +1,362 @@
+header{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(maldives-1993704_640.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+
+}
+nav{
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(251, 250, 250);
+    height: 100px;
+    width: 100%;
+    word-spacing: 15px;
+    position: relative;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    border-bottom: 2px solid indianred;
+    transition: 0.1s linear;
+    
+
+}
+.menu a:hover:before{
+    width: 100%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 10px;
+    word-spacing: 2px;
+
+    
+}
+.btn a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+
+}
+.logo{
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+section div a{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+section div a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+    color: white;
+}
+h6{
+    letter-spacing: 2px;
+}
+.footer-logo{
+    font-size: 15px;
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    color: white;
+    
+}
+
+.body{
+    /* background: url(services.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    padding: 2px;
+    border: 0px solid whitesmoke;
+    background-color:#e4e9f7;
+
+}
+html{
+    border: 0px solid white;
+    margin: 0px;
+    padding: 0px;
+}
+.box1{
+    /* background: url(services.png); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    padding: none;
+    border-radius: 50px;
+    background-color: #e4e9f7;
+    /* height: 100px; */
+    width: 50%;
+    
+}
+.box{
+    background-color: transparent;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 10%;
+    margin: 10px;
+    background: #cbbfbf;
+    color: black;
+    height: 340px;
+    width: 500px;
+    box-shadow: 0 0 128px 0 rgba(0, 0,0,0.1), 0 32px 64px -48px rgba(0,0,0,0.5);
+
+}
+.services-image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home-image{
+    width: 285px;
+    height: 200px;
+    border-radius: 10% 10% 0 0;
+}
+.travel{
+    background-color: #e4e9f7;
+    color: rgb(40, 34, 34);
+    padding: 2px;
+    border: 1px solid #e4e9f7;
+    border-radius: 30%;
+    margin: 10px;
+    box-shadow:rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(26, 13, 13, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+.inline-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0px;
+    border: none;
+    border-left: 0px;
+    
+}
+.inline-item{
+    margin-left: 0;
+    padding-left: 0px;
+    border-left: 0px ;
+    display: flex;
+}
+.inline-container > div {
+    background-color: #e4e9f7;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    width: 100%;
+    box-shadow: 0 0 128px 0 rgba(0, 0,0,0.1), 0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.popular{
+    color: black;
+    
+}
+.Ind{
+    position: absolute;
+    top: 1000px;
+    right: 500px;
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+}
+.Aus{
+    position: absolute;
+    top: 1650px;
+    right: 420px;
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+}
+.Us{
+    position: absolute;
+    top: 2350px;
+    right: 500px;
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+html{
+    background-color: #e4e9f7;
+}
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+        width: 100%;
+    }
+    header{
+        padding: 2rem;
+    }
+    header.seat{
+        padding: 2rem;
+    }
+    body .box1{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    body .box1 .home-image{
+        width: 100%;
+    }
+    body .box1 box{
+        width: 100%;
+    }
+    body .inline-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div .e{
+        text-align: center;
+    }
+
+    .btn{
+        display: inline-block;
+    }
+    header .menu{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background: rgba(0,0,0,.9);
+        border-top: .1rem solid #eee;
+        clip-path: polygon(0 0 ,100% 0, 100% 0, 0 0);
+    }
+    header .menu{
+        clip-path:polygon(0 0 ,100% 0, 100% 100% , 0 100%);
+    }
+    header .menu a{
+        display: block;
+        margin: 2rem;
+        font-size: 2rem;
+    }
+    center h2{
+        padding: 1rem 0;
+        margin-top: 6rem;
+    }
+    body .inline-container h2{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        margin-top: 6rem;
+    }
+    .inline-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/* @media (max-width:991px) {
+    .btn{
+        display: inline-block;
+    }
+    header .menu{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background: rgba(0,0,0,.9);
+        border-top: .1rem solid #eee;
+        clip-path: polygon(0 0 ,100% 0, 100% 0, 0 0);
+    }
+    header .menu{
+        clip-path:polygon(0 0 ,100% 0, 100% 100% , 0 100%);
+    }
+    header .menu a{
+        display: block;
+        margin: 2rem;
+        font-size: 2rem;
+    }
+    center h2{
+        padding: 1rem 0;
+        margin-top: 6rem;
+    }
+    body .inline-container h2{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        margin-top: 6rem;
+    }
+
+
+} */
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    header .btn a{
+        letter-spacing: none;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+}
+
+/* ......................Login................................. */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+
+}
+.login-body{
+    background-color: #e4e9f7;
+} */
